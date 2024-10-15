@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 28px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  color: rgb(211, 200, 200);
+}
+
+.title p {
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.title span {
+  color: #04414d;
+}
+
+.pics img {
+  width: 85%;
+  height: 70%;
+}
+.nav-item .nav-link {
+  color: rgb(113, 110, 110);
+  font-size: 18px;
+}
+
+/* ---------------------------------
+         SECTION ABOUT
+--------------------------------- */
+#about {
+  width: 100%;
+  background: #0b0b0b;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5%;
+}
+#about .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgb(255, 251, 251);
+  font-size: 30px;
+  font-weight: bold;
+}
+#about .card {
+  border-radius: 10px;
+}
+#about .card img {
+  border-radius: 10px;
+}
+#about-btn {
+  width: 200px;
+  height: 36px;
+  background: transparent;
+  color: #04414d;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#about-btn:hover {
+  background: #04414d;
+  color: white;
+}
+
+@media screen and (max-width: 766px) {
+  #about p {
+    font-size: 18px;
+  }
+  /* #about{ height: 110vh;} */
+  #about button {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ---------------------------------
+         SECTION TOP-CARDS
+--------------------------------- */
+.top-cards {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5%;
+}
+.heading2 span {
+  color: #b2744c;
+}
+.top-cards .container {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.top-cards .card {
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.top-cards .card img {
+  border-radius: 10px;
+}
+.top-cards .card:hover {
+  transform: translateY(-10px);
+}
+
+/* ---------------------------------
+         SECTION MENU
+--------------------------------- */
+.menu {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+#container2 {
+  margin-top: 20px;
+}
+.menu .card {
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i {
+  color: #04414d;
+}
+.menu h3 {
+  color: #04414d;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.menu p {
+  font-size: 16px;
+  color: #04414d;
+  padding-top: 10px;
+}
+.menu p span {
+  float: right;
+  cursor: pointer;
+}
+
+/* ----------- testimonials--------------- */
+
+#testimonials {
+  margin: 100px 0;
+}
+
+.testimonials {
+  border-left: 4px solid #04414d;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.testimonials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user-details {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form form input,
+textarea {
+  width: 400px;
+  padding: 14px;
+  border: 2px solid #07394e;
+  margin-bottom: 10px;
+  border-radius: 0.7rem;
+  outline: none;
+ 
+}
+.contact-form form textarea {
+  resize: none;
+  height: 200px;
+}
+.contact-form form .contact-button {
+  font-weight: 500;
+  color: #fff;
+  background: rgb(11, 49, 54);
+  cursor: pointer;
+}
+.contact-form form .contact-button:hover {
+  background: #225c72;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer {
+  width: 100%;
+  background: #04414d;
+}
+.footer-logo img {
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#footer .socail-links i {
+  font-size: 17px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#footer .socail-links i:hover {
+  background: white;
+  color: #07394e;
+  /* border: 1px solid #2a1f83; */
+}
+
+#footer p{
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 415px) {
+  .contact-form form input,
+  textarea {
+    width: auto;
+  }
+}
